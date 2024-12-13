@@ -44,6 +44,8 @@ body{
     padding: 2rem;
     background-color: var(--color1);
     color: var(--color3);
+    padding-bottom: 15rem;
+
 }
 
 .section-about-extend h2{
@@ -84,6 +86,17 @@ body{
     padding-right: 3rem;
 }
 
+.section-equipe{
+    height: 100%;
+    width: 100%;
+    margin-top: -12rem !important;
+    margin-bottom: 3rem;
+    z-index: 7;
+}
+.section-equipe .text-especialista h2{
+    color: var(--color3);
+}
+
 
 /* 
 =========================================================
@@ -94,12 +107,32 @@ body{
 
 .nucleo{
     background: linear-gradient(rgba(12, 13, 14, 0.5), rgba(12, 13, 14, 0.5)), url(../img/image5.png) fixed  center;
-    margin-top: 0;
+    margin-top: 6.7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nucleo.adm{
+    background: linear-gradient(rgba(12, 13, 14, 0.5), rgba(12, 13, 14, 0.5)), url(../img/image9.jpg) fixed  center;
+ 
+}
+
+.nucleo.curso{
+    background: linear-gradient(rgba(12, 13, 14, 0.5), rgba(12, 13, 14, 0.5)), url(../img/image6.png) fixed  center;
+
+}
+
+
+.nucleo h1{
+    font-size: 3em !important; 
+    padding: 2rem;
 }
 .section-nucleos-extend{
     width: 100%;
     height: auto;
     background: #141B3E;
+    
 }
 .introduction h1{
     font-size: 5em;
@@ -143,24 +176,24 @@ body{
     justify-content: end;
     width: 100%;
     height: auto;
-    padding: 4rem 1rem;
-    
+    padding: 6rem 1rem;    
 }
 
 .gestao{
     background: #141B3E;
-    background: linear-gradient(180deg, #141B3E 85%, #FFFDFD 100%);
+    background: linear-gradient(180deg, #141B3E 65%, #FFFDFD 100%);
     color: #FFFDFD;
 }
 .assessoria{
     background: rgb(217,249,152);
-    background: linear-gradient(180deg, #FFFDFD 85%, #141B3E 100%);
+    background: linear-gradient(180deg, #FFFDFD 65%, #a1a1a1 100%);
     text-align: end;
     color: #141B3E;
 }
 .treinamento{
-    background-color: #141B3E;
     color: #FFFDFD;
+    margin-bottom: 7rem;
+
 }
 
 .nucleos-extend h2{

@@ -9,7 +9,7 @@
     */
     .links{
         margin-right: 0rem;
-        font-size: 1.3em;
+        font-size: 1em;
 
     }
     .logo{
@@ -91,7 +91,19 @@
     }
    
 }
+@media (max-width: 1200px) {
+    .links{
+        font-size: 0.9rem;
+        gap: 1rem;
+    }
+}
+
 @media (max-width: 1020px) {
+    .links{
+        font-size: 0.8rem;
+        gap: 0.5rem;
+    }
+    
     .bubble p {
         font-size: 0.8em;
     }
@@ -114,11 +126,28 @@
     ========================================================= 
     */
     .links{
-        margin-right: 0rem;
-        font-size: 1em;
-        gap: 1rem;
-
+        display: none;
     }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+    
+      .hamburger {
+        display: flex;
+      }
     .logo{
         left: 0rem;
     }
@@ -260,7 +289,7 @@
     ========================================================= 
     */
     .nav-footer ul {
-        font-size: 1.5em;
+        font-size: 0.9em;
     }
 
     /* 
@@ -315,29 +344,7 @@
     NAVBAR STYLES
     ========================================================= 
     */
-    .links{
-        display: none;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        padding: 10px;
-        border-radius: 5px;
-        width: 200px;
-      }
-    
-      .nav-links.active {
-        display: flex;
-      }
-    
-      .hamburger {
-        display: flex;
-      }
+   
 
 
     /* 
@@ -439,8 +446,7 @@
     ========================================================= 
     */
     .nav-footer ul {
-        font-size: 1.2em;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .footer-contato {
@@ -592,11 +598,11 @@
         FOOTER STYLES
     ========================================================= 
     */
-
     .nav-footer ul {
-        font-size: 1em;
-        gap: 1rem;
+        flex-direction: column;
+        text-align: center;
     }
+    
     .footer1 {
         padding: 1rem;
     }
@@ -710,10 +716,7 @@
         FOOTER STYLES
     ========================================================= 
     */
-    .nav-footer ul {
-       flex-direction: column;
-       text-align: center;
-    }
+    
 
     /* 
     =========================================================
