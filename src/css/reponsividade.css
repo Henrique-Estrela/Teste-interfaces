@@ -96,6 +96,9 @@
         font-size: 0.9rem;
         gap: 1rem;
     }
+    .text-especialista h2{
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -329,6 +332,9 @@
     .nucleos-extend img {
         width: 50vw;
     }
+    .text-especialista h2{
+        font-size: 2em;
+    }
 }  
 
 
@@ -489,6 +495,9 @@
         
         width: 13rem;
     }
+    .text-especialista h2{
+        font-size: 1.3em;
+    }
     
 }
 
@@ -559,6 +568,9 @@
     }
     .about-text h2::after {
         margin-right: 0rem;
+    }
+    .text-especialista h2{
+        font-size: 1em;
     }
     /* 
     =========================================================
@@ -683,6 +695,9 @@
     }
     .about {
         height: 160vh;
+    }
+    .text-especialista h2{
+        font-size: 0.9em;
     }
 
     /* 

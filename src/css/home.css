@@ -226,6 +226,7 @@ text-decoration: none;
 .carousel-caption p{
     font-size: 1.2em;
     text-align: center;
+    font-weight: 500;
     position: relative;
     top: -7rem;
 }
@@ -482,7 +483,14 @@ text-decoration: none;
 
 
 
-
+.about-extend .gestao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background:none;
+}
 
 
 
@@ -665,7 +673,7 @@ button{
 .title-contatos h2{
     gap: 1rem;
     width: 100%;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 800;
     font-family: "Montserrat", serif;
     margin-bottom: 2rem;
@@ -691,15 +699,22 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .text-contatos h2{
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 100%;
     font-size: 2em;
     font-weight: 800;
     font-family: "Montserrat", serif;
     margin-bottom: 2rem;
+    text-align: center;
+}
+.text-contatos h2.text{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 
 .text-contatos h2 span{
@@ -733,6 +748,9 @@ button{
     height: 70px;
     width: unset;
 }
+
+
+
 .blocos h3{
     font-size: 1.4em;
     font-weight: 700;
@@ -744,14 +762,10 @@ button{
 }
 
 .bloco{
-    margin-top: 2rem;
     width: 100%;
-    height: 30rem;
     border-radius: 10px;
-    background-color: #c3c3c34e;
     gap: 1rem;
     padding: 1rem;
-    margin-bottom: 4rem;
 
 }
 
@@ -767,30 +781,43 @@ button{
 
 .bloco ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 2.5rem;
     padding: 1rem;
-    margin-left: 2rem;
     text-decoration: none;
 
 }
 .bloco ul a{
     text-decoration: none;
 }
+.bloco i{
+    font-size: 45px;
+    font-weight: 500;
+    color: #1f2a5c;
+}
+.bloco i:hover{
+    color: #000;
+}
 
 
 .bloco-email{
     margin-top: 1rem;
-    width: 90%;
-    height: 48rem;
+    width: 80%;
+    height: auto;
     border-radius: 10px;
-    background-color: #c3c3c34e;
+    background-color: #75757546;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 1rem;
     margin-bottom: 4rem;
+}
+.bloco-email h2{
+    margin-top: 2rem;
+    font-weight: 500;
 }
 
 .section-contatos form{
@@ -810,15 +837,20 @@ button{
   
 .section-contatos input[type="text"],
 .section-contatos input[type="email"],
+.section-contatos input[type="number"],
 .section-contatos textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 2rem;
     border: 1px solid #000;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #ffffffdb;
     font-weight: 700;
   }
+  input::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: 500; 
+}
   
 .section-contatos textarea {
     height: 15rem;

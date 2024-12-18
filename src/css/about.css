@@ -44,12 +44,12 @@ body{
     padding: 2rem;
     background-color: var(--color1);
     color: var(--color3);
-    padding-bottom: 15rem;
+    padding-bottom: 1rem;
 
 }
 
 .section-about-extend h2{
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 500;
     color: var(--color3);
     display: flex;
